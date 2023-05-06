@@ -1,0 +1,34 @@
+.flex-container{
+    display: flex;
+    border: 2px solid green;
+    height: 45vh;
+    flex-direction: row;
+    flex-direction: column-reverse; /* it will reverse the columns directon*/
+    justify-content: center; /* content at the center */
+    justify-content: flex-start; /* content at the start*/
+    justify-content: flex-end; /* content will be at the end */
+    align-items: center; /*it will align items at the center*/
+    align-items: flex-end;
+    align-items: flex-start;
+    justify-content: space-between;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;/* */
+}
+
+.flex-item{
+    height: 122px;
+    width: 122px;
+    margin: 20px;
+    background-color: rgb(42, 161, 165);
+    border: 2px solid black;
+}
+.flex-item1{
+    flex-grow: 3;
+    color: brown;
+}
+.flex-item3{
+    order: 1;
+    flex-shrink: 1;
+    align-self: center;
+}
